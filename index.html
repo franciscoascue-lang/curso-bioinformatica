@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web con Estilos en Línea</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh;">
+
+    <!-- Header -->
+    <header style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); padding: 20px; text-align: center; border-bottom: 1px solid rgba(255, 255, 255, 0.2);">
+        <h1 style="color: white; margin: 0; font-size: 2.5em; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">Mi Sitio Web</h1>
+        <p style="color: rgba(255, 255, 255, 0.9); font-size: 1.2em; margin: 10px 0 0 0;">Bienvenido a nuestra página</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav style="background: rgba(0, 0, 0, 0.2); padding: 15px; text-align: center;">
+        <a href="#inicio" style="color: white; text-decoration: none; margin: 0 15px; padding: 8px 16px; border-radius: 20px; background: rgba(255, 255, 255, 0.1); transition: all 0.3s;">Inicio</a>
+        <a href="#servicios" style="color: white; text-decoration: none; margin: 0 15px; padding: 8px 16px; border-radius: 20px; background: rgba(255, 255, 255, 0.1); transition: all 0.3s;">Servicios</a>
+        <a href="#contacto" style="color: white; text-decoration: none; margin: 0 15px; padding: 8px 16px; border-radius: 20px; background: rgba(255, 255, 255, 0.1); transition: all 0.3s;">Contacto</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main style="max-width: 1200px; margin: 40px auto; padding: 20px;">
+
+        <!-- Hero Section -->
+        <section id="inicio" style="background: rgba(255, 255, 255, 0.95); padding: 40px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin-bottom: 30px;">
+            <h2 style="color: #333; font-size: 2em; margin-top: 0;">Descubre Nuestros Servicios</h2>
+            <p style="color: #666; line-height: 1.6; font-size: 1.1em;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button style="background: linear-gradient(45deg, #667eea, #764ba2); color: white; border: none; padding: 12px 30px; font-size: 1.1em; border-radius: 25px; cursor: pointer; margin-top: 20px; transition: transform 0.3s;">Saber Más</button>
+        </section>
+
+        <!-- Services Grid -->
+        <section id="servicios" style="margin-bottom: 40px;">
+            <h2 style="color: white; text-align: center; font-size: 2.5em; margin-bottom: 30px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">Nuestros Servicios</h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px;">
+                
+                <!-- Service 1 -->
+                <div style="background: rgba(255, 255, 255, 0.95); padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center; transition: transform 0.3s;">
+                    <div style="background: linear-gradient(45deg, #667eea, #764ba2); width: 80px; height: 80px; border-radius: 50%; margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; font-size: 2em; color: white;">💻</div>
+                    <h3 style="color: #333; margin-top: 0;">Desarrollo Web</h3>
+                    <p style="color: #666; line-height: 1.5;">Creación de sitios web modernos y responsivos utilizando las últimas tecnologías.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div style="background: rgba(255, 255, 255, 0.95); padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center; transition: transform 0.3s;">
+                    <div style="background: linear-gradient(45deg, #667eea, #764ba2); width: 80px; height: 80px; border-radius: 50%; margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; font-size: 2em; color: white;">📱</div>
+                    <h3 style="color: #333; margin-top: 0;">Apps Móviles</h3>
+                    <p style="color: #666; line-height: 1.5;">Desarrollo de aplicaciones móviles nativas e híbridas para iOS y Android.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div style="background: rgba(255, 255, 255, 0.95); padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center; transition: transform 0.3s;">
+                    <div style="background: linear-gradient(45deg, #667eea, #764ba2); width: 80px; height: 80px; border-radius: 50%; margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; font-size: 2em; color: white;">☁️</div>
+                    <h3 style="color: #333; margin-top: 0;">Cloud Computing</h3>
+                    <p style="color: #666; line-height: 1.5;">Soluciones en la nube escalables y seguras para tu negocio.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section id="contacto" style="background: rgba(255, 255, 255, 0.95); padding: 40px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+            <h2 style="color: #333; text-align: center; font-size: 2.5em; margin-top: 0;">Contáctanos</h2>
+            
+            <form style="max-width: 600px; margin: 0 auto;">
+                <div style="margin-bottom: 20px;">
+                    <label style="display: block; color: #333; margin-bottom: 5px; font-weight: bold;">Nombre:</label>
+                    <input type="text" style="width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 8px; font-size: 1em; box-sizing: border-box;">
+                </div>
+                
+                <div style="margin-bottom: 20px;">
+                    <label style="display: block; color: #333; margin-bottom: 5px; font-weight: bold;">Email:</label>
+                    <input type="email" style="width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 8px; font-size: 1em; box-sizing: border-box;">
+                </div>
+                
+                <div style="margin-bottom: 20px;">
+                    <label style="display: block; color: #333; margin-bottom: 5px; font-weight: bold;">Mensaje:</label>
+                    <textarea style="width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 8px; font-size: 1em; min-height: 120px; box-sizing: border-box;"></textarea>
+                </div>
+                
+                <button type="submit" style="background: linear-gradient(45deg, #667eea, #764ba2); color: white; border: none; padding: 15px 40px; font-size: 1.1em; border-radius: 25px; cursor: pointer; width: 100%; transition: transform 0.3s;">Enviar Mensaje</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer style="background: rgba(0, 0, 0, 0.3); color: white; text-align: center; padding: 30px; margin-top: 50px;">
+        <p style="margin: 0; font-size: 1em;">&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+        <div style="margin-top: 15px;">
+            <a href="#" style="color: white; margin: 0 10px; text-decoration: none;">Términos y Condiciones</a>
+            <a href="#" style="color: white; margin: 0 10px; text-decoration: none;">Política de Privacidad</a>
+        </div>
+    </footer>
+
+</body>
+</html>
